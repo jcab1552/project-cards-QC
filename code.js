@@ -1,12 +1,30 @@
 const cardHolder = document.querySelector('#cardHolder');
 
 const players = [
-    {inGameName: 'LESLAO', realName:'unknown', playerRole: 'unknown', memberPic: "pictures/PLAYERS/LESLAO.png"},
-    {inGameName: 'SVG', realName:'unknown', playerRole: 'unknown', memberPic: "pictures/PLAYERS/SVG.png"},
-    {inGameName: 'MSS', realName:'unknown', playerRole: 'unknown',memberPic: "pictures/PLAYERS/MSS.png"},
-    {inGameName: 'QUINN', realName:'unknown', playerRole: 'unknown',memberPic: "pictures/PLAYERS/QUINN.png" },
-    {inGameName: 'KBBQ', realName:'unknown', playerRole: 'unknown',memberPic: "pictures/PLAYERS/KBBQ.png"},
-    {inGameName: 'YAWAR', realName:'unknown', playerRole: 'unknown',memberPic: "pictures/PLAYERS/YAWAR.png"}
+    {inGameName: 'LESLAO',
+    realName:'Rodrigo Santos',
+    playerRole: 'Offlaner',
+    memberPic: "pictures/PLAYERS/LESLAO.png"},
+    {inGameName: 'SVG',
+    realName:'Avery Silverman',
+    playerRole: 'Support"Captain"',
+    memberPic: "pictures/PLAYERS/SVG.png"},
+    {inGameName: 'MSS',
+    realName:'Arif Anwar',
+    playerRole: 'Support"Offlaner"',
+    memberPic: "pictures/PLAYERS/MSS.png"},
+    {inGameName: 'QUINN',
+    realName:'Quinn Callahan',
+    playerRole: 'Solo Middle',
+    memberPic: "pictures/PLAYERS/QUINN.png" },
+    {inGameName: 'KBBQ',
+    realName:'Jack Chen',
+    playerRole: 'Manager',
+    memberPic: "pictures/PLAYERS/KBBQ.png"},
+    {inGameName: 'YAWAR',
+    realName:'Yawar Hassan',
+    playerRole: 'Carry"Solo Middle"',
+    memberPic: "pictures/PLAYERS/YAWAR.png"}
 
 ];
 

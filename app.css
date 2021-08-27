@@ -2,6 +2,8 @@ body{
     min-height: 110vh;
     min-width: auto;
     background-image: url("pictures/cardBackGroudIMG/QC_WEBSITE_BODY.png");
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 h1,
 h2,
@@ -17,7 +19,7 @@ p{
     margin:auto;
     padding:auto;
     padding-top: 50px;
-    width: 70vw;
+    width: 1344px;
     height: auto;
     background-color: transparent;
 }
@@ -38,6 +40,7 @@ p{
      border-radius: 10px;
      transition: 150ms;
      border: solid 1px rgba(163, 153, 86, 0.473);
+
     }
 .cardBackGround{
     display: flex;
@@ -61,12 +64,13 @@ p{
     align-items: center;
     text-align: center;
     margin-bottom: 15px;
+    color:white;
 }
 .card:hover{
  border: none;
 }
 .card:hover .cardBackGround {
-    transition: 
+    transition:
     transform 500ms,
     opacity 100ms linear;
     opacity: 1;
@@ -110,6 +114,7 @@ p{
      border-width: 1px;
      background-image: url("pictures/cardBackGroudIMG/QC_WEBSITE_TOPHALF.png");
      box-shadow: 0px 0px 5px 6px rgba(163, 153, 86, 0.473); 
+     color: white;
  }
  #modalInfoHolder{
      display: flex;
