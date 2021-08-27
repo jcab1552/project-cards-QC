@@ -3,7 +3,7 @@ body{
     min-width: auto;
     background-image: url("pictures/cardBackGroudIMG/QC_WEBSITE_BODY.png");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size:cover; 
 }
 h1,
 h2,
@@ -19,7 +19,8 @@ p{
     margin:auto;
     padding:auto;
     padding-top: 50px;
-    width: 1344px;
+    width: 70vw;
+    max-width: 1344px;;
     height: auto;
     background-color: transparent;
 }
@@ -68,6 +69,7 @@ p{
 }
 .card:hover{
  border: none;
+ cursor:pointer;
 }
 .card:hover .cardBackGround {
     transition:
