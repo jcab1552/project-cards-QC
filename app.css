@@ -33,13 +33,13 @@ p{
     box-sizing: border-box;
 }
 .cardFront{
-    transition: 1000ms;
+    transition: 400ms;
 }
 .playerImg{
     width: 350px;
      height: auto;
      border-radius: 10px;
-     transition: 150ms;
+     transition: 400ms;
      border: solid 1px rgba(163, 153, 86, 0.473);
 
     }
@@ -57,7 +57,7 @@ p{
     border-radius: 10px;
     transform: scale(.5);
     opacity: 0;
-    transition: 1000ms;
+    transition: 400ms;
 }
 .playerInfo{
     display: flex;
@@ -73,8 +73,8 @@ p{
 }
 .card:hover .cardBackGround {
     transition:
-    transform 500ms,
-    opacity 100ms linear;
+    transform 400ms ease-in-out,
+    opacity 400ms ;
     opacity: 1;
     transform: scale(1, 1.1);
     box-shadow: 0px 0px 5px 6px rgba(163, 153, 86, 0.473);  
