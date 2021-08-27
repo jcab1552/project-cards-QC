@@ -27,17 +27,17 @@ p{
     height: 472px;
     border-radius: 10px;
     margin-bottom: 70px;
-    border: solid 1px rgba(163, 153, 86, 0.473);
     box-sizing: border-box;
 }
 .cardFront{
-    transition: 150ms;
+    transition: 1000ms;
 }
 .playerImg{
     width: 350px;
      height: auto;
      border-radius: 10px;
      transition: 150ms;
+     border: solid 1px rgba(163, 153, 86, 0.473);
     }
 .cardBackGround{
     display: flex;
@@ -53,6 +53,7 @@ p{
     border-radius: 10px;
     transform: scale(.5);
     opacity: 0;
+    transition: 1000ms;
 }
 .playerInfo{
     display: flex;
@@ -66,7 +67,7 @@ p{
 }
 .card:hover .cardBackGround {
     transition: 
-    transform 150ms ease-in-out,
+    transform 500ms,
     opacity 100ms linear;
     opacity: 1;
     transform: scale(1, 1.1);
